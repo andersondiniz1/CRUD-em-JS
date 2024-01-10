@@ -13,6 +13,8 @@ const db = mysql.createConnection({
   user: 'root',
   password: 'Menezeslira10.',
   database: 'itemtable',
+  socketPath: '/var/run/mysqld/mysqld.sock',
+  port: 3306,
 });
 
 // -- create_database.sql
